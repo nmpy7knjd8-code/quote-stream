@@ -81,13 +81,9 @@ Replace the fascism sentence with:
 
 **FIX.** The two Sheen sentences are his (ch. 2, pp. 19 and 20, joined by an ellipsis). *Peace of Soul* against Liebman's *Peace of Mind* (1946) is the right frame, and the metaphysical reading of anxiety is fair. The Jung clause changes what Jung said. In "Psychotherapists or the Clergy" (*Modern Man in Search of a Soul*) he wrote that among patients over thirty-five there was not one whose problem in the last resort was not finding a religious outlook. He did not say they were healed.
 
-Replace:
+Replace the closing sentence's Jung clause so it reads:
 
-> his remark that none of his patients over thirty-five was healed without finding a religious outlook
-
-with:
-
-> his remark, in Modern Man in Search of a Soul ("Psychotherapists or the Clergy"), that among his patients over thirty-five there was not one whose problem in the last resort was not that of finding a religious outlook on life. He did not say they were healed by it
+> Sheen pairs well with Jung's Modern Man in Search of a Soul — in "Psychotherapists or the Clergy" he wrote that among his patients over thirty-five there was not one whose problem in the last resort was not that of finding a religious outlook on life; he did not say they were healed by it — and with Kierkegaard's The Concept of Anxiety.
 
 ### 40 Gaston Bachelard — the house
 
