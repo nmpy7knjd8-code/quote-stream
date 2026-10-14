@@ -1,0 +1,706 @@
+{
+  "Pseudo-Dionysius the Areopagite Trinity, which exceedeth all Being, Deity, and Goodness!": {
+    "file": "images/rublev-trinity.jpg",
+    "title": "The Trinity",
+    "artist": "Andrei Rublev",
+    "year": "1425–1427",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAndrey_Rublev_-_%D0%A1%D0%B2._%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%B0_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "Pseudo-Dionysius the Areopagite Hierarchy is, in my opinion, a holy order": {
+    "file": "images/ladder-of-divine-ascent.jpg",
+    "title": "The Ladder of Divine Ascent",
+    "artist": "Sinai, 12th century",
+    "year": "12th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_Ladder_of_Divine_Ascent_Monastery_of_St_Catherine_Sinai_12th_century.jpg",
+    "license": "Public domain"
+  },
+  "Meister Eckhart Those who seek peace in external things, whether": {
+    "file": "images/friedrich-great-enclosure.jpg",
+    "title": "The Great Enclosure near Dresden",
+    "artist": "Caspar David Friedrich",
+    "year": "1832",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_The_Grosse_Gehege_near_Dresden_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "Meister Eckhart The man who abides in the will of": {
+    "file": "images/friedrich-winter-landscape.jpg",
+    "title": "Winter Landscape",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1811",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Winterlandschaft_mit_Kirche_%28National_Gallery_London%29.jpg",
+    "license": "Public domain"
+  },
+  "Plotinus The sensitive eye can never be able to": {
+    "file": "images/turner-sun-through-vapour.jpg",
+    "title": "Sun Setting through Vapour",
+    "artist": "J. M. W. Turner",
+    "year": "c. 1809",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Barber_Institute_of_Fine_Arts_-_Joseph_Mallord_William_Turner_-_Sun_Setting_through_Vapour.jpg",
+    "license": "Public domain"
+  },
+  "Proclus This, therefore, is mathematics: she reminds you of": {
+    "file": "images/vermeer-astronomer.jpg",
+    "title": "The Astronomer",
+    "artist": "Johannes Vermeer",
+    "year": "c. 1668",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AJohannes_Vermeer_-_The_Astronomer_-_1668.jpg",
+    "license": "Public domain"
+  },
+  "Jakob Böhme We men have one book in common which": {
+    "file": "images/latour-education-of-the-virgin.jpg",
+    "title": "The Education of the Virgin",
+    "artist": "Georges de La Tour",
+    "year": "c. 1650",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AGeorges_de_La_Tour_L%27Education_de_la_Vierge_The_Frick_Collection.jpg",
+    "license": "Public domain"
+  },
+  "Johann Wolfgang von Goethe Someday someone will write a pathology of experimental": {
+    "file": "images/shishkin-rain-oak-forest.jpg",
+    "title": "Rain in an Oak Forest",
+    "artist": "Ivan Shishkin",
+    "year": "1891",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AIwan_Iwanowitsch_Schischkin_-_Rain_in_an_Oak_Forest.jpg",
+    "license": "Public domain"
+  },
+  "Johann Wolfgang von Goethe Theories usually result from the precipitate reasoning of": {
+    "file": "images/friedrich-view-of-the-baltic.jpg",
+    "title": "View of the Baltic",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1820–1825",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_View_of_the_Baltic_-_WGA08260.jpg",
+    "license": "Public domain"
+  },
+  "Novalis (Friedrich von Hardenberg) Everywhere we seek the Absolute, and always we": {
+    "file": "images/friedrich-moonrise-by-the-sea.jpg",
+    "title": "Moonrise by the Sea",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1822",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Moonrise_by_the_Sea_-_WGA08266.jpg",
+    "license": "Public domain"
+  },
+  "Novalis (Friedrich von Hardenberg) Imagination places the future world for us either": {
+    "file": "images/friedrich-chasseur-in-the-forest.jpg",
+    "title": "The Chasseur in the Forest",
+    "artist": "Caspar David Friedrich",
+    "year": "1814",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_The_Chasseur_in_the_Forest_-_WGA8247.jpg",
+    "license": "Public domain"
+  },
+  "Friedrich Hölderlin We are nothing; what we search for is": {
+    "file": "images/friedrich-woman-before-the-setting-sun.jpg",
+    "title": "Woman before the Setting Sun",
+    "artist": "Caspar David Friedrich",
+    "year": "1818",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Woman_before_the_Rising_Sun_%28Woman_before_the_Setting_Sun%29_-_WGA08253.jpg",
+    "license": "Public domain"
+  },
+  "Friedrich Hölderlin Nah ist / Und schwer zu fassen der": {
+    "file": "images/church-twilight-in-the-wilderness.jpg",
+    "title": "Twilight in the Wilderness",
+    "artist": "Frederic Edwin Church",
+    "year": "1860",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AFrederic_Edwin_Church_-_Twilight_in_the_Wilderness.jpg",
+    "license": "Public domain"
+  },
+  "F. W. J. Schelling The fear of speculation, the ostensible rush from": {
+    "file": "images/cole-the-oxbow.jpg",
+    "title": "The Oxbow",
+    "artist": "Thomas Cole",
+    "year": "1836",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg",
+    "license": "Public domain"
+  },
+  "Arthur Schopenhauer It therefore pauses at this particular thing; the": {
+    "file": "images/kensett-lake-george.jpg",
+    "title": "Lake George",
+    "artist": "John Frederick Kensett",
+    "year": "1860",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AJohn_Frederick_Kensett_-_Lake_George_-_WGA12113.jpg",
+    "license": "Public domain"
+  },
+  "Arthur Schopenhauer Music is as direct an objectification and copy": {
+    "file": "images/whistler-nocturne-battersea.jpg",
+    "title": "Nocturne: Blue and Gold — Old Battersea Bridge",
+    "artist": "James McNeill Whistler",
+    "year": "1872–1873",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AJames_McNeill_Whistler_-_Nocturne-_Battersea_Bridge_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "C. G. Jung The archetype as such is a psychoid factor": {
+    "file": "images/friedrich-mountain-peak-drifting-clouds.jpg",
+    "title": "Mountain Peak with Drifting Clouds",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1835",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Mountain_Peak_with_Drifting_Clouds_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "C. G. Jung To be sure, the more we are accustomed": {
+    "file": "images/virgin-of-vladimir.jpg",
+    "title": "The Virgin of Vladimir",
+    "artist": "Constantinople, 12th century",
+    "year": "12th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AVirgin_of_Vladimir.jpg",
+    "license": "Public domain"
+  },
+  "C. G. Jung We are living in what the Greeks called": {
+    "file": "images/friedrich-abbey-in-the-oakwood.jpg",
+    "title": "The Abbey in the Oakwood",
+    "artist": "Caspar David Friedrich",
+    "year": "1809–1810",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_Abbey_in_the_Oakwood_by_Caspar_David_Friedrich.jpg",
+    "license": "Public domain"
+  },
+  "Henry Corbin We observe immediately that we are no longer": {
+    "file": "images/bocklin-villa-by-the-sea.jpg",
+    "title": "Villa by the Sea",
+    "artist": "Arnold Böcklin",
+    "year": "1871–1874",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AArnold_B%C3%B6cklin_-_Villa_by_the_Sea_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "Simone Weil Decreation: to make something created pass into the": {
+    "file": "images/turner-evening-star.jpg",
+    "title": "The Evening Star",
+    "artist": "J. M. W. Turner",
+    "year": "c. 1830",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ATurner_-_The_Evening_Star%2C_about_1830%2C_NG1991.jpg",
+    "license": "Public domain"
+  },
+  "Simone Weil The needs of the soul can for the": {
+    "file": "images/constable-salisbury-meadows.jpg",
+    "title": "Salisbury Cathedral from the Meadows",
+    "artist": "John Constable",
+    "year": "1831",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AConstable_-_Salisbury_Cathedral_from_the_Meadows%2C_1829%2C_N01814.jpg",
+    "license": "Public domain"
+  },
+  "Simone Weil Attention consists of suspending our thought, leaving it": {
+    "file": "images/hammershoi-strandgade-30.jpg",
+    "title": "Interior from Strandgade 30",
+    "artist": "Vilhelm Hammershøi",
+    "year": "1900",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AVilhelm_Hammersh%C3%B8i%2C_Interi%C3%B8r_fra_Strandgade_30%2C_1900.jpg",
+    "license": "Public domain"
+  },
+  "Josef Pieper Of course in the present day […] the": {
+    "file": "images/durand-kindred-spirits.jpg",
+    "title": "Kindred Spirits",
+    "artist": "Asher Brown Durand",
+    "year": "1849",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAsher_Durand_Kindred_Spirits.jpg",
+    "license": "Public domain"
+  },
+  "Josef Pieper If someone needs the \"unusual\" to be moved": {
+    "file": "images/kuindzhi-birch-grove.jpg",
+    "title": "Birch Grove",
+    "artist": "Arkhip Kuindzhi",
+    "year": "1879",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Birch_grove_by_Arkhip_Kuindzhi_in_the_State_Tretyakov_gallery_IMG_7962_%D1%81.jpg",
+    "license": "CC BY-SA 4.0"
+  },
+  "Max Picard Silence is the only phenomenon today that is": {
+    "file": "images/friedrich-monk-by-the-sea.jpg",
+    "title": "The Monk by the Sea",
+    "artist": "Caspar David Friedrich",
+    "year": "1809",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Monk_by_the_Sea.jpg",
+    "license": "Public domain"
+  },
+  "Nikolai Berdyaev It must be recognized that man in his": {
+    "file": "images/friedrich-morning-riesengebirge.jpg",
+    "title": "Morning in the Riesengebirge",
+    "artist": "Caspar David Friedrich",
+    "year": "1810–1811",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Morgen_im_Riesengebirge.jpg",
+    "license": "Public domain"
+  },
+  "Hans Urs von Balthasar Love alone is credible; nothing else can be": {
+    "file": "images/angelico-annunciation.jpg",
+    "title": "The Annunciation",
+    "artist": "Fra Angelico",
+    "year": "c. 1440–1445",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAngelico_-_Annunciation_-_San_Marco_north_corridor.jpg",
+    "license": "Public domain"
+  },
+  "Fulton J. Sheen Anxiety increases in direct ratio and proportion as": {
+    "file": "images/el-greco-view-of-toledo.jpg",
+    "title": "View of Toledo",
+    "artist": "El Greco",
+    "year": "c. 1599",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AView_of_Toledo_MET_DP349564.jpg",
+    "license": "CC0"
+  },
+  "Martin Heidegger Everywhere we remain unfree and chained to technology,": {
+    "file": "images/turner-rain-steam-speed.jpg",
+    "title": "Rain, Steam and Speed",
+    "artist": "J. M. W. Turner",
+    "year": "1844",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ARain_Steam_and_Speed_the_Great_Western_Railway.jpg",
+    "license": "Public domain"
+  },
+  "Martin Heidegger Everything is functioning. This is exactly what is": {
+    "file": "images/turner-fighting-temeraire.jpg",
+    "title": "The Fighting Temeraire",
+    "artist": "J. M. W. Turner",
+    "year": "1839",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg",
+    "license": "Public domain"
+  },
+  "René Guénon There is an exact correspondence between a world": {
+    "file": "images/bierstadt-mirror-lake.jpg",
+    "title": "Mirror Lake, Yosemite Valley",
+    "artist": "Albert Bierstadt",
+    "year": "1864",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAlbert_Bierstadt_-_Mirror_Lake%2C_Yosemite_Valley_%281864%29.jpg",
+    "license": "Public domain"
+  },
+  "Nicolás Gómez Dávila Technology does not fulfill man’s perennial dreams, but": {
+    "file": "images/levitan-vladimirka.jpg",
+    "title": "The Vladimirka",
+    "artist": "Isaac Levitan",
+    "year": "1892",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AVladimirka_without_frame.jpg",
+    "license": "Public domain"
+  },
+  "Oswald Spengler Faced as we are with this destiny, there": {
+    "file": "images/church-cotopaxi.jpg",
+    "title": "Cotopaxi",
+    "artist": "Frederic Edwin Church",
+    "year": "1862",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AFrederic_Edwin_Church_-_Cotopaxi_-_76.89_-_Detroit_Institute_of_Arts.jpg",
+    "license": "Public domain"
+  },
+  "Ernst Jünger Whether our modern instance represents a very unusual": {
+    "file": "images/friedrich-sailing-ship.jpg",
+    "title": "Sailing Ship",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1815",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Segelschiff.jpg",
+    "license": "Public domain"
+  },
+  "Ernst Jünger The numbers of those wanting to abandon ship": {
+    "file": "images/aivazovsky-the-wave.jpg",
+    "title": "The Wave",
+    "artist": "Ivan Aivazovsky",
+    "year": "1889",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AIvan_aivazovsky%2C_l%27onda%2C_1889.JPG",
+    "license": "Public domain"
+  },
+  "Jacques Ellul No technique is possible when men are free.": {
+    "file": "images/bierstadt-sierra-nevada.jpg",
+    "title": "Among the Sierra Nevada, California",
+    "artist": "Albert Bierstadt",
+    "year": "1868",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAlbert_Bierstadt_-_Among_the_Sierra_Nevada%2C_California_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "Iain McGilchrist The right hemisphere underwrites breadth and flexibility of": {
+    "file": "images/constable-dedham-vale.jpg",
+    "title": "View of Dedham Vale from East Bergholt",
+    "artist": "John Constable",
+    "year": "1802",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John_Constable_-_View_of_Dedham_Vale_from_East_Bergholt.jpg",
+    "license": "Public domain"
+  },
+  "Byung-Chul Han Twenty-first-century society is no longer a disciplinary society,": {
+    "file": "images/durer-melencolia.jpg",
+    "title": "Melencolia I",
+    "artist": "Albrecht Dürer",
+    "year": "1514",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAlbrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg",
+    "license": "Public domain"
+  },
+  "Yukio Mishima Originally I was not possessed by gloomy thoughts.": {
+    "file": "images/bocklin-isle-of-the-dead.jpg",
+    "title": "Isle of the Dead",
+    "artist": "Arnold Böcklin",
+    "year": "1883",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AArnold_B%C3%B6cklin_-_Die_Toteninsel_III_%28Alte_Nationalgalerie%2C_Berlin%29.jpg",
+    "license": "Public domain"
+  },
+  "Gaston Bachelard If I were asked to name the chief": {
+    "file": "images/friedrich-woman-at-a-window.jpg",
+    "title": "Woman at a Window",
+    "artist": "Caspar David Friedrich",
+    "year": "1822",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Woman_at_a_Window_-_WGA8268.jpg",
+    "license": "Public domain"
+  },
+  "C. S. Lewis it would seem that Our Lord finds our": {
+    "file": "images/aivazovsky-black-sea.jpg",
+    "title": "The Black Sea",
+    "artist": "Ivan Aivazovsky",
+    "year": "1881",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAivazovsky_-_The_Black_Sea.jpg",
+    "license": "Public domain"
+  },
+  "C. S. Lewis And all the time — such is the": {
+    "file": "images/blake-newton.jpg",
+    "title": "Newton",
+    "artist": "William Blake",
+    "year": "c. 1795",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ANewton-WilliamBlake.jpg",
+    "license": "Public domain"
+  },
+  "Blaise Pascal What a chimera then is man! What a": {
+    "file": "images/blake-good-and-evil-angels.jpg",
+    "title": "The Good and the Evil Angels",
+    "artist": "William Blake",
+    "year": "1795",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_Good_and_Evil_Angels_Tate_Blake.jpg",
+    "license": "Public domain"
+  },
+  "Blaise Pascal The heart has its reasons, which reason does": {
+    "file": "images/latour-magdalene-night-light.jpg",
+    "title": "Magdalene with the Night Light",
+    "artist": "Georges de La Tour",
+    "year": "c. 1640",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AGeorges_de_La_Tour_-_Magdalen_of_Night_Light_-_WGA12337.jpg",
+    "license": "Public domain"
+  },
+  "Fyodor Dostoevsky All writers, not ours alone but foreigners also,": {
+    "file": "images/kramskoi-christ-in-the-wilderness.jpg",
+    "title": "Christ in the Wilderness",
+    "artist": "Ivan Kramskoi",
+    "year": "1872",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AIvan_Kramskoy_-_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%81_%D0%B2_%D0%BF%D1%83%D1%81%D1%82%D1%8B%D0%BD%D0%B5_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "Fyodor Dostoevsky It was not only that I could not": {
+    "file": "images/hammershoi-corner-of-a-room.jpg",
+    "title": "The Corner of a Room",
+    "artist": "Vilhelm Hammershøi",
+    "year": "c. 1900",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AVilhelm_Hammersh%C3%B8i_-_Stue._Hj%C3%B8rnet_af_en_Stue_med_graa-lilla_V%C3%A6gge%2C_inddelte_i_Felter.png",
+    "license": "Public domain"
+  },
+  "Augustine of Hippo Too late loved I Thee, O Thou Beauty": {
+    "file": "images/kuindzhi-red-sunset.jpg",
+    "title": "Red Sunset on the Dnieper",
+    "artist": "Arkhip Kuindzhi",
+    "year": "1905–1908",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ARed_Sunset_on_the_Dnieper_MET_DT2557.jpg",
+    "license": "Public domain"
+  },
+  "Plato Some one will say: Yes, Socrates, but cannot": {
+    "file": "images/church-the-parthenon.jpg",
+    "title": "The Parthenon",
+    "artist": "Frederic Edwin Church",
+    "year": "1871",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AParthenon_%281871%29_Frederic_Edwin_Church.jpg",
+    "license": "Public domain"
+  },
+  "Aristotle For it is owing to their wonder that": {
+    "file": "images/friedrich-two-men-contemplating-the-moon.jpg",
+    "title": "Two Men Contemplating the Moon",
+    "artist": "Caspar David Friedrich",
+    "year": "1819–1820",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Two_Men_Contemplating_the_Moon_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "William Blake To the Eyes of a Miser a Guinea": {
+    "file": "images/blake-river-of-life.jpg",
+    "title": "The River of Life",
+    "artist": "William Blake",
+    "year": "c. 1805",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ABlake_The_River_of_Life_Tate_Britain.jpg",
+    "license": "Public domain"
+  },
+  "William Blake The ancient tradition that the world will be": {
+    "file": "images/blake-morning-stars.jpg",
+    "title": "When the Morning Stars Sang Together",
+    "artist": "William Blake",
+    "year": "c. 1820",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AWilliam_Blake_-_The_Book_of_Job_-_When_the_Morning_Stars_Sang_Together_-_WGA02228.jpg",
+    "license": "Public domain"
+  },
+  "John Keats I had not a dispute but a disquisition": {
+    "file": "images/friedrich-seascape-by-moonlight.jpg",
+    "title": "Seascape by Moonlight",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1828",
+    "source_url": "https://commons.wikimedia.org/wiki/File:See_in_the_moonlight_by_Caspar_David_Friedrich.jpg",
+    "license": "Public domain"
+  },
+  "Friedrich Nietzsche My formula for greatness in man is amor": {
+    "file": "images/friedrich-sea-of-ice.jpg",
+    "title": "The Sea of Ice",
+    "artist": "Caspar David Friedrich",
+    "year": "1823–1824",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle.jpg",
+    "license": "Public domain"
+  },
+  "Søren Kierkegaard It is really true what philosophy tells us,": {
+    "file": "images/levitan-golden-autumn.jpg",
+    "title": "Golden Autumn",
+    "artist": "Isaac Levitan",
+    "year": "1895",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ALevitan_Zolotaya_Osen.jpg",
+    "license": "Public domain"
+  },
+  "Rainer Maria Rilke Be patient toward all that is unsolved in": {
+    "file": "images/hammershoi-white-doors.jpg",
+    "title": "White Doors",
+    "artist": "Vilhelm Hammershøi",
+    "year": "1913",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AVilhelm_Hammersh%C3%B8i_-_Hvide_d%C3%B8re._Interi%C3%B8r_fra_Strandgade_25_-_1913.png",
+    "license": "Public domain"
+  },
+  "Epictetus Men are disturbed not by things, but by": {
+    "file": "images/aivazovsky-calm-sea.jpg",
+    "title": "Calm Sea",
+    "artist": "Ivan Aivazovsky",
+    "year": "1887",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ARuhige_See_by_Iwan_Aiwasowski%2C_1887.jpg",
+    "license": "Public domain"
+  },
+  "Ralph Waldo Emerson In the woods, we return to reason and": {
+    "file": "images/shishkin-mast-tree-grove.jpg",
+    "title": "Mast-Tree Grove",
+    "artist": "Ivan Shishkin",
+    "year": "1898",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AIvan_Shishkin_-_Mast-Tree_grove_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "Henry David Thoreau I went to the woods because I wished": {
+    "file": "images/cole-home-in-the-woods.jpg",
+    "title": "Home in the Woods",
+    "artist": "Thomas Cole",
+    "year": "1847",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACole_Thomas_Home_in_the_Woods_1847.jpg",
+    "license": "Public domain"
+  },
+  "Laozi The tao that can be told is not": {
+    "file": "images/ma-yuan-mountain-path-in-spring.jpg",
+    "title": "Walking on a Mountain Path in Spring",
+    "artist": "Ma Yuan",
+    "year": "c. 1190",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AMa_Yuan_Walking_on_Path_in_Spring.jpg",
+    "license": "Public domain"
+  },
+  "G. K. Chesterton The things I believed most then, the things": {
+    "file": "images/constable-the-cornfield.jpg",
+    "title": "The Cornfield",
+    "artist": "John Constable",
+    "year": "1826",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AJohn_Constable_-_The_Cornfield.jpg",
+    "license": "Public domain"
+  },
+  "Johann Wolfgang von Goethe The eye may be said to owe its": {
+    "file": "images/turner-norham-castle-sunrise.jpg",
+    "title": "Norham Castle, Sunrise",
+    "artist": "J. M. W. Turner",
+    "year": "c. 1845",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AJoseph_Mallord_William_Turner_-_Norham_Castle%2C_Sunrise_-_WGA23182.jpg",
+    "license": "Public domain"
+  },
+  "Johann Wolfgang von Goethe Surely the mere inspection of a subject can": {
+    "file": "images/constable-cloud-study.jpg",
+    "title": "Cloud Study",
+    "artist": "John Constable",
+    "year": "1822",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A%27Cloud_Study%27%2C_by_John_Constable%2C_1822%2C_Tate_Britain.JPG",
+    "license": "CC0"
+  },
+  "Johann Wolfgang von Goethe The colours are acts of light; its active": {
+    "file": "images/kuindzhi-rainbow.jpg",
+    "title": "Rainbow",
+    "artist": "Arkhip Kuindzhi",
+    "year": "1900–1905",
+    "source_url": "https://commons.wikimedia.org/wiki/File:0820Ha._Kuindzhi_A.I._Rainbow,_1900-1905.jpg",
+    "license": "Public domain"
+  },
+  "Johann Wolfgang von Goethe The burgher may not ask himself, 'What art": {
+    "file": "images/friedrich-chalk-cliffs.jpg",
+    "title": "Chalk Cliffs on Rügen",
+    "artist": "Caspar David Friedrich",
+    "year": "1818",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich%27s_Chalk_Cliffs_on_R%C3%BCgen.jpg",
+    "license": "Public domain"
+  },
+  "John Keats I had not a dispute, but a disquisition,": {
+    "file": "images/friedrich-seascape-by-moonlight.jpg",
+    "title": "Seascape by Moonlight",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1828",
+    "source_url": "https://commons.wikimedia.org/wiki/File:See_in_the_moonlight_by_Caspar_David_Friedrich.jpg",
+    "license": "Public domain"
+  },
+  "Arthur Schopenhauer It stands alone, quite cut off from all": {
+    "file": "images/whistler-falling-rocket.jpg",
+    "title": "Nocturne in Black and Gold: The Falling Rocket",
+    "artist": "James McNeill Whistler",
+    "year": "1875",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AWhistler-Nocturne_in_black_and_gold.jpg",
+    "license": "Public domain"
+  },
+  "Arthur Schopenhauer Our explanation of the sublime applies also to": {
+    "file": "images/friedrich-the-watzmann.jpg",
+    "title": "The Watzmann",
+    "artist": "Caspar David Friedrich",
+    "year": "1824–1825",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_The_Watzmann_%281824-25%29.jpg",
+    "license": "Public domain"
+  },
+  "Oswald Spengler At the moment exactly corresponding to that at": {
+    "file": "images/vredeman-gothic-cathedral.jpg",
+    "title": "Interior of a Gothic Cathedral",
+    "artist": "Paul Vredeman de Vries",
+    "year": "1612",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AInterior_of_a_Gothic_Cathedral_LACMA_49.17.5.jpg",
+    "license": "Public domain"
+  },
+  "Oswald Spengler Causality is the reasonable, the law-bound, the describable,": {
+    "file": "images/levitan-above-eternal-peace.jpg",
+    "title": "Above Eternal Peace",
+    "artist": "Isaac Levitan",
+    "year": "1894",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AIsaac_Levitan_-_Au-dessus_du_repos_%C3%A9ternel.jpg",
+    "license": "Public domain"
+  },
+  "Novalis Must the morning always return? Will the despotism": {
+    "file": "images/kuindzhi-moonlit-night-dnieper.jpg",
+    "title": "Moonlit Night on the Dnieper",
+    "artist": "Arkhip Kuindzhi",
+    "year": "1880",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AArkhip_Kuindzhi_-_%D0%9D%D0%BE%D1%87%D1%8C_%D0%BD%D0%B0_%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%B5_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "Novalis Amid heavenly odours he fell asleep, for Dream": {
+    "file": "images/leonardo-virgin-of-the-rocks.jpg",
+    "title": "The Virgin of the Rocks",
+    "artist": "Leonardo da Vinci",
+    "year": "1483–1486",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ALeonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg",
+    "license": "Public domain"
+  },
+  "Meister Eckhart Nothing hinders the soul so much in attaining": {
+    "file": "images/kensett-eatons-neck.jpg",
+    "title": "Eaton's Neck, Long Island",
+    "artist": "John Frederick Kensett",
+    "year": "1872",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AJohn_Frederick_Kensett_-_Eaton%27s_Neck%2C_Long_Island_-_74.29_-_Metropolitan_Museum_of_Art.jpg",
+    "license": "Public domain"
+  },
+  "Meister Eckhart The highest act of renunciation for man is": {
+    "file": "images/friedrich-monastery-graveyard-snow.jpg",
+    "title": "Monastery Graveyard in the Snow",
+    "artist": "Caspar David Friedrich",
+    "year": "1819",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Klosterruine_im_Schnee.jpg",
+    "license": "Public domain"
+  },
+  "Anonymous LIFT up thine heart unto God with a": {
+    "file": "images/friedrich-drifting-clouds.jpg",
+    "title": "Drifting Clouds",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1820",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Drifting_Clouds_-_WGA8259.jpg",
+    "license": "Public domain"
+  },
+  "Anonymous But yet all reasonable creatures, angel and man,": {
+    "file": "images/virgin-of-tenderness.jpg",
+    "title": "The Virgin of Tenderness",
+    "artist": "Byzantine, 14th century",
+    "year": "c. 1340–1360",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_Virgin_of_Tenderness_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "Anonymous AND if ever thou shalt come to this": {
+    "file": "images/friedrich-wanderer-above-the-sea-of-fog.jpg",
+    "title": "Wanderer above the Sea of Fog",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1818",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    "license": "Public domain"
+  },
+  "Anonymous For thou hast brought me with thy question": {
+    "file": "images/friedrich-evening-on-the-baltic.jpg",
+    "title": "Evening on the Baltic Sea",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1831",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Abend_am_Ostseestrand.jpg",
+    "license": "Public domain"
+  },
+  "Plotinus Almost everyone declares that the symmetry of parts": {
+    "file": "images/friedrich-lone-tree.jpg",
+    "title": "The Lone Tree",
+    "artist": "Caspar David Friedrich",
+    "year": "1822",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_Village_Landscape_in_Morning_Light_%28The_Lone_Tree%29_-_WGA8265.jpg",
+    "license": "Public domain"
+  },
+  "Plotinus And Nature, asked why it brings forth its": {
+    "file": "images/shishkin-mordvinova-forest.jpg",
+    "title": "The Forest of Countess Mordvinova",
+    "artist": "Ivan Shishkin",
+    "year": "1891",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AShishkin_Ivan_The_Forest_of_Countess_Mordvinova_1891.jpg",
+    "license": "Public domain"
+  },
+  "Plotinus In the same way, human beings, when weak": {
+    "file": "images/turner-snow-storm-steam-boat.jpg",
+    "title": "Snow Storm — Steam-Boat off a Harbour's Mouth",
+    "artist": "J. M. W. Turner",
+    "year": "1842",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AJoseph_Mallord_William_Turner_-_Snow_Storm_-_Steam-Boat_off_a_Harbour%27s_Mouth_-_WGA23178.jpg",
+    "license": "Public domain"
+  },
+  "Proclus Every thing which is united is different from": {
+    "file": "images/aivazovsky-moonlit-night-at-sea.jpg",
+    "title": "A Moonlit Night at Sea",
+    "artist": "Ivan Aivazovsky",
+    "year": "1885",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AIvan_Konstantinovich_Aivazovsky_-_A_Moonlit_Night_at_Sea%2C_1885.jpg",
+    "license": "Public domain"
+  },
+  "Proclus For if multitude is prior to the one,": {
+    "file": "images/kuindzhi-after-a-rain.jpg",
+    "title": "After the Rain",
+    "artist": "Arkhip Kuindzhi",
+    "year": "1879",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AKuindzhi_After_a_rain_1879.jpg",
+    "license": "Public domain"
+  },
+  "Socrates The unexamined life is not worth living.": {
+    "file": "images/rembrandt-philosopher-in-meditation.jpg",
+    "title": "The Philosopher in Meditation",
+    "artist": "Rembrandt",
+    "year": "1632",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ARembrandt_-_The_Philosopher_in_Meditation.jpg",
+    "license": "Public domain"
+  },
+  "Seneca We suffer more often in imagination than in": {
+    "file": "images/heade-approaching-thunder-storm.jpg",
+    "title": "Approaching Thunder Storm",
+    "artist": "Martin Johnson Heade",
+    "year": "1859",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AApproaching_Thunder_Storm_MET_DT79.jpg",
+    "license": "CC0"
+  },
+  "Friedrich Nietzsche He who has a why to live can": {
+    "file": "images/friedrich-cross-in-the-mountains.jpg",
+    "title": "Cross in the Mountains",
+    "artist": "Caspar David Friedrich",
+    "year": "c. 1812",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACaspar_David_Friedrich_-_The_Cross_in_the_Mountains_-_Google_Art_Project.jpg",
+    "license": "Public domain"
+  },
+  "Ludwig Wittgenstein The limits of my language mean the limits": {
+    "file": "images/kensett-near-newport.jpg",
+    "title": "Near Newport",
+    "artist": "John Frederick Kensett",
+    "year": "1869",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AJohn_Frederick_Kensett_-_Near_Newport.jpg",
+    "license": "Public domain"
+  },
+  "Albert Camus One must imagine Sisyphus happy.": {
+    "file": "images/titian-sisyphus.jpg",
+    "title": "Sisyphus",
+    "artist": "Titian",
+    "year": "1548–1549",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ATitian_-_Sisyphus_-_Madrid_-_Prado.jpg",
+    "license": "Public domain"
+  }
+}
