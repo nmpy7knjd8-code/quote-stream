@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quote Stream</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Inter:wght@300&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;height:100%;background:#faf9f6;color:#1c1c1c}
+body{display:flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent;min-height:100%}
+html{height:auto;min-height:100%}
+blockquote{cursor:pointer}
+#more{display:block;margin:1.2rem auto 0;background:none;border:0;color:#bbb;font-size:1rem;cursor:pointer;transition:transform .3s}
+#more.open{transform:rotate(180deg)}
+#x{display:none;text-align:left;margin-top:2.5rem;font:400 1.15rem/1.7 'Cormorant Garamond',Georgia,serif}
+#x.open{display:block}
+#x h4{font:300 .7rem Inter,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#888;margin:2rem 0 .6rem}
+#x ul{padding-left:1.1rem}#x a{color:inherit}
+main{max-width:40rem;padding:4rem 2rem;text-align:center;transition:opacity .5s}
+blockquote{margin:0;font:400 clamp(1.5rem,4vw,2.4rem)/1.4 'Cormorant Garamond',Georgia,serif}
+cite{display:block;margin-top:2rem;font:300 .8rem/1.4 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#888;font-style:normal}
+cite i{text-transform:none;letter-spacing:0;font-family:'Cormorant Garamond',serif;font-size:1rem}
+#next{position:fixed;right:2rem;bottom:2rem;background:none;border:0;font-size:1.4rem;color:#bbb;cursor:pointer}
+#next:hover{color:#555}
+@media(prefers-color-scheme:dark){html,body{background:#121212;color:#e8e6e1}#next{color:#555}#next:hover{color:#aaa}}
+</style></head><body>
+<main id="m"><blockquote id="q"></blockquote><cite id="a"></cite><button id="more" aria-label="More">&#8964;</button><section id="x"></section></main>
+<button id="next" aria-label="Next">&rarr;</button>
+<script>
+let qs=[],i=0;const x_=document.getElementById('x');const m=document.getElementById('m');
+const sh=a=>{for(let j=a.length-1;j>0;j--){const k=Math.random()*(j+1)|0;[a[j],a[k]]=[a[k],a[j]]}return a};
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+function show(){const x=qs[i];x_.classList.remove('open');more.classList.remove('open');q.textContent='\u201C'+x.quote+'\u201D';a.innerHTML='';a.append('— '+x.author);if(x.work){const s=document.createElement('i');s.textContent=', '+x.work;a.append(s)}
+const ex=Array.isArray(x.expansion)?x.expansion:(x.expansion||'').split(/\n\n+/);more.style.display=ex.length&&ex[0]?'':'none';
+x_.innerHTML=ex.map(p=>'<p>'+esc(p)+'</p>').join('')+((x.sources||[]).length?'<h4>Further reading</h4><ul>'+x.sources.map(s=>'<li><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a>'+(s.author?' — '+esc(s.author):'')+'</li>').join('')+'</ul>':'')}
+function toggle(){x_.classList.toggle('open');more.classList.toggle('open')}
+function next(){if(!qs.length)return;m.style.opacity=0;setTimeout(()=>{scrollTo(0,0);i++;if(i>=qs.length){sh(qs);i=0}show();m.style.opacity=1},400)}
+fetch('quotes.json').then(r=>r.json()).then(d=>{qs=sh(d);show()});
+q.addEventListener('click',toggle);more.addEventListener('click',toggle);document.getElementById('next').addEventListener('click',next);
+addEventListener('keydown',e=>{if(e.key==='Escape'&&x_.classList.contains('open'))toggle();if(e.key==='Enter')toggle();if(e.key==='ArrowRight'||e.key===' '){e.preventDefault();next()}});
+</script></body></html>
