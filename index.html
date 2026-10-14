@@ -5,7 +5,9 @@
 html,body{margin:0;height:100%;background:#faf9f6;color:#1c1c1c}
 body{display:flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent;min-height:100vh;min-height:100dvh;box-sizing:border-box}
 html{height:auto;min-height:100%}
-blockquote{cursor:pointer}
+blockquote{cursor:pointer;margin:0 auto;max-width:var(--mw,38ch);font-size:var(--fs,clamp(2rem,5.5vw,3.4rem))!important;line-height:var(--lh,1.3)!important;text-wrap:pretty}
+blockquote p{margin:0 0 .9em}blockquote p:last-child{margin-bottom:0}
+.long blockquote{text-align:left}
 #more{display:block;margin:1.2rem auto 0;background:none;border:0;color:#bbb;font-size:1rem;cursor:pointer;transition:transform .3s}
 #more.open{transform:rotate(180deg)}
 #x{display:none;text-align:left;margin:2.5rem auto 0;max-width:65ch;font:400 17.5px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;font-style:normal;letter-spacing:normal;text-transform:none}
@@ -13,7 +15,7 @@ blockquote{cursor:pointer}
 #x.open{display:block}
 #x h4{font:600 17.5px/1.6 inherit;font-family:inherit;color:inherit;margin:2rem 0 .5rem}
 #x ul{padding-left:1.1rem}#x a{color:inherit}
-main{max-width:46rem;padding:3rem 1.5rem;box-sizing:border-box;width:100%;text-align:center;transition:opacity .5s}
+main{max-width:min(60rem,100%);padding:4rem 1.5rem;box-sizing:border-box;width:100%;text-align:center;transition:opacity .5s}
 blockquote{margin:0;font:400 clamp(2rem,5.5vw,3.4rem)/1.3 'Cormorant Garamond',Georgia,serif}
 cite{display:block;margin-top:2rem;font:300 clamp(.95rem,2vw,1.15rem)/1.4 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#888;font-style:normal}
 cite i{text-transform:none;letter-spacing:0;font-family:'Cormorant Garamond',serif;font-size:1.25em}
@@ -27,7 +29,12 @@ cite i{text-transform:none;letter-spacing:0;font-family:'Cormorant Garamond',ser
 let qs=[],i=0;const x_=document.getElementById('x');const m=document.getElementById('m');
 const sh=a=>{for(let j=a.length-1;j>0;j--){const k=Math.random()*(j+1)|0;[a[j],a[k]]=[a[k],a[j]]}return a};
 function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
-function show(){const x=qs[i];x_.classList.remove('open');more.classList.remove('open');q.textContent='\u201C'+x.quote+'\u201D';a.innerHTML='';a.append('— '+x.author);if(x.work){const s=document.createElement('i');s.textContent=', '+x.work;a.append(s)}
+function show(){const x=qs[i];x_.classList.remove('open');more.classList.remove('open');const ps=String(x.quote).trim().split(/\n\s*\n/);q.innerHTML=ps.map((p,k)=>'<p>'+(k?'':'\u201C')+esc(p).replace(/\n/g,'<br>')+(k==ps.length-1?'\u201D':'')+'</p>').join('');
+const w=String(x.quote).split(/\s+/).length,S=q.style;m.classList.toggle('long',w>45);
+if(w<=20){S.setProperty('--fs','clamp(2rem,5.5vw,3.4rem)');S.setProperty('--lh','1.3');S.setProperty('--mw','38ch')}
+else if(w<=45){S.setProperty('--fs','clamp(1.6rem,4vw,2.5rem)');S.setProperty('--lh','1.4');S.setProperty('--mw','44ch')}
+else if(w<=110){S.setProperty('--fs','clamp(1.3rem,2.8vw,1.85rem)');S.setProperty('--lh','1.5');S.setProperty('--mw','54ch')}
+else{S.setProperty('--fs','clamp(1.15rem,2.2vw,1.5rem)');S.setProperty('--lh','1.55');S.setProperty('--mw','60ch')}a.innerHTML='';a.append('— '+x.author);if(x.work){const s=document.createElement('i');s.textContent=', '+x.work;a.append(s)}
 const ex=Array.isArray(x.expansion)?x.expansion:(x.expansion||'').split(/\n\n+/);more.style.display=ex.length&&ex[0]?'':'none';
 x_.innerHTML=ex.map(p=>'<p>'+esc(p)+'</p>').join('')+((x.sources||[]).length?'<h4>Further reading</h4><ul>'+x.sources.map(s=>'<li><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a>'+(s.author?' — '+esc(s.author):'')+'</li>').join('')+'</ul>':'')}
 function toggle(){x_.classList.toggle('open');more.classList.toggle('open')}
