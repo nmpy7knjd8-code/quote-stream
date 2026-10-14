@@ -1,21 +1,27 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <title>Quote Stream</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 <style>
-html,body{margin:0;background:#faf9f6;color:#1c1c1c}
+html,body{margin:0;background:#faf9f6;color:#1c1c1c;overflow-x:hidden;max-width:100%}
 body{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;-webkit-tap-highlight-color:transparent}
 body::before,body::after{content:"";flex:1 1 auto}
-main{flex:0 0 auto;max-width:min(60rem,100%);padding:1.75rem 1.25rem 5rem;box-sizing:border-box;width:100%;text-align:center;transition:opacity .5s}
-.fig{margin:0 auto 1.35rem;width:min(100%,calc(32vh * 1.5),34rem);aspect-ratio:3/2;position:relative;overflow:hidden}
+main{flex:0 0 auto;max-width:min(60rem,100%);padding:calc(1.75rem + env(safe-area-inset-top,0px)) max(1.25rem,env(safe-area-inset-right,0px)) calc(5.5rem + env(safe-area-inset-bottom,0px)) max(1.25rem,env(safe-area-inset-left,0px));box-sizing:border-box;width:100%;text-align:center;transition:opacity .5s}
+.fig{margin:0 auto 1.35rem;width:min(100%,calc(32dvh * 1.5),34rem);max-width:100%;aspect-ratio:3/2;position:relative;overflow:hidden}
 .fig[hidden]{display:none}
 .fig img{width:100%;height:100%;object-fit:cover;display:block}
 .fig::after{content:"";position:absolute;left:0;right:0;bottom:0;height:14%;background:linear-gradient(to bottom,transparent,#faf9f6);pointer-events:none}
-blockquote{cursor:pointer;margin:0 auto;max-width:var(--mw,38ch);font:400 var(--fs,clamp(2rem,5.5vw,3.4rem))/var(--lh,1.3) 'Cormorant Garamond',Georgia,serif;text-wrap:pretty}
+blockquote{cursor:pointer;margin:0 auto;max-width:min(var(--mw,38ch),100%);font:400 var(--fs,clamp(2rem,5.5vw,3.4rem))/var(--lh,1.3) 'Cormorant Garamond',Georgia,serif;text-wrap:pretty;overflow-wrap:break-word}
 blockquote p{margin:0 0 .9em}blockquote p:last-child{margin-bottom:0}
 .long blockquote{text-align:left}
-#more{display:block;margin:1.2rem auto 0;background:none;border:0;color:#bbb;font-size:1rem;cursor:pointer;transition:transform .3s}
+#more{display:grid;place-items:center;min-width:44px;min-height:44px;margin:.35rem auto 0;padding:0;background:none;border:0;color:#bbb;font-size:1rem;cursor:pointer;transition:transform .3s;touch-action:manipulation;-webkit-appearance:none;appearance:none}
 #more.open{transform:rotate(180deg)}
-#x{display:none;text-align:left;margin:2.5rem auto 0;max-width:65ch;font:400 17.5px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;font-style:normal;letter-spacing:normal;text-transform:none}
+#x{display:none;text-align:left;margin:2.5rem auto 0;max-width:min(65ch,100%);font:400 17.5px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif;font-style:normal;letter-spacing:normal;text-transform:none;overflow-wrap:break-word}
 #x p{margin:0 0 1em}#x li{margin-bottom:.4em}
 #x.open{display:block}
 #x h4{font:600 17.5px/1.6 inherit;font-family:inherit;color:inherit;margin:2rem 0 .5rem}
@@ -25,25 +31,27 @@ blockquote p{margin:0 0 .9em}blockquote p:last-child{margin-bottom:0}
 .cred a:hover{text-decoration:underline}
 cite{display:block;margin-top:2rem;font:300 clamp(.95rem,2vw,1.15rem)/1.4 Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#888;font-style:normal}
 cite i{text-transform:none;letter-spacing:0;font-family:'Cormorant Garamond',serif;font-size:1.25em}
-#next{position:fixed;right:2rem;bottom:2rem;width:1.96rem;height:1.96rem;padding:0;background:none;border:0;color:#fff;cursor:pointer;filter:drop-shadow(0 0 .55px rgba(28,28,28,.62)) drop-shadow(0 0 1.5px rgba(28,28,28,.28))}
-#next svg{display:block;width:100%;height:100%;overflow:visible}
-#next path{fill:none;stroke:currentColor;stroke-width:1.25px;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
-#next:hover,#next:focus-visible{filter:drop-shadow(0 0 .7px rgba(28,28,28,.78)) drop-shadow(0 0 2px rgba(28,28,28,.34))}
+#next{position:fixed;z-index:2;right:max(2rem,env(safe-area-inset-right,0px));bottom:calc(2rem + env(safe-area-inset-bottom,0px));width:48px;height:48px;padding:0;background:transparent;border:0;color:#8a8a8a;cursor:pointer;touch-action:manipulation;-webkit-appearance:none;appearance:none}
+#next svg{display:block;width:100%;height:100%}
+#next circle,#next path{fill:none;stroke:currentColor;vector-effect:non-scaling-stroke}
+#next circle{stroke-width:1px}
+#next path{stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round}
+#next:hover,#next:focus-visible{color:#5c5c5c}
 #next:focus{outline:none}
-#next:focus-visible{outline:1px solid rgba(28,28,28,.22);outline-offset:5px}
+#next:focus-visible{outline:1px solid currentColor;outline-offset:4px}
 @media(max-width:640px){
-  .fig{width:min(100%,calc(28vh * 1.5),34rem)}
-  main{padding:1.25rem 1rem 4.5rem}
+  .fig{width:min(100%,calc(28dvh * 1.5),34rem)}
 }
 @media(prefers-color-scheme:dark){
   html,body{background:#121212;color:#e8e6e1}
   .fig::after{background:linear-gradient(to bottom,transparent,#121212)}
   .cred{color:#8a8a8a}
-  #next:focus-visible{outline-color:rgba(232,230,225,.28)}
+  #next{color:#aaa}
+  #next:hover,#next:focus-visible{color:#c8c8c8}
 }
 </style></head><body>
 <main id="m"><figure class="fig" id="fig" hidden><img id="img" alt=""></figure><blockquote id="q"></blockquote><cite id="a"></cite><button id="more" aria-label="More">&#8964;</button><section id="x"></section></main>
-<button id="next" aria-label="Next"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 7.5 18.6 12 13 16.5"/></svg></button>
+<button id="next" aria-label="Next"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22.5"/><path d="M8 24h32M28 11.5 40 24 28 36.5"/></svg></button>
 <script>
 let qs=[],i=0,imgs={};
 const x_=document.getElementById('x');const m=document.getElementById('m');
