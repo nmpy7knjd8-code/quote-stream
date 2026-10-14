@@ -1,18 +1,18 @@
-# Review of the research quote file
+# Review of the research quote file (62 entries)
 
-Reviewed `data/research-quotes.json` on `cursor/scholarly-passages-6bb8` (22 entries; schema `quote`, `author`, `work`, `expansion`, `sources`). Expansions are three paragraphs each.
+Reviewed `data/research-quotes.json` on `cursor/scholarly-passages-6bb8` as it stands now: the original 22 passages, each expansion lengthened from three paragraphs to five, plus 40 new entries. Six of the new entries are public-domain English (Steiner, Bergson, Eliot). Thirty-four are labeled paraphrases of copyrighted modern work.
 
-Standard used, after Garrett's update: a recognized translation or a reliable secondary copy is enough. A passage is **REJECT** only if it is fabricated or misattributed. Most of the effort is on the expansions: are they accurate, are they deep enough to be worth the space, are they clear, and do they explain why the idea matters?
+Standard used: a recognized translation or a reliable secondary copy is enough, and a passage is **REJECT** only if it is fabricated or misattributed. A paraphrase has to represent the thinker's actual argument and name the work. Expansions are judged on whether the influence and lineage claims are accurate, whether the writing is deep enough to earn the space, and whether it says why the idea matters.
 
-Checked the quotations against the named editions: Eastlake's *Theory of Colours* (Gutenberg 50572), Carlyle's *Wilhelm Meister* (36483), Colvin's Keats (35698), Haldane and Kemp's Schopenhauer (38427), Atkinson's *Decline of the West* (72344), MacDonald's *Rampolli* (8949), Field's Eckhart (CCEL), Underhill's *Cloud* (Wikisource, and Sacred Texts chapters 3–6), MacKenna's Plotinus (Wikisource), and Taylor's *Elements of Theology* (Gutenberg 78800). All 29 source URLs returned 200. Several entries cite one edition in two or three file formats. Those links are live and point at the right book.
+The first 22 quotations are unchanged and still match the named editions. The six new public-domain quotations match Gutenberg (Steiner 55761, Bergson 26163, Eliot 57795), apart from one joined line-break in Bergson. Of 109 source URLs, 108 returned a success code. The Internet Encyclopedia of Philosophy page for Bergson returned 500; that entry's Gutenberg and Stanford Encyclopedia links are live. The paraphrase entries mostly cite encyclopedia pages. Those pages are live and on the right person or book. They are not substitutes for the books, and the work lines are what carry the citation.
 
-**Result: 17 PASS, 5 FIX, 0 REJECT.** Nothing was dropped. `corrected-quotes.json` keeps every PASS entry as submitted and the FIX entries with the corrections below. The quotations themselves are the editions they name. Footnote numbers and italic markup in the Gutenberg files are not part of the quotation, and leaving them out is right.
+**Result: 51 PASS, 11 FIX, 0 REJECT.** Nothing was dropped. `corrected-quotes.json` is the full file of 62, with the eleven corrections below. The five corrections from the review of the 22-entry file were not taken up when those expansions were lengthened. They are restated here because they are still in the text.
 
 ## FIX
 
 ### 04 Keats — Negative Capability
 
-**FIX.** Colvin's text of the letter of 21 December 1817 matches Gutenberg 35698, including the irregular *Penetralium*. The expansion is otherwise the one this letter needs: it keeps Negative Capability inside the letter, marks *penetralium* as Keats's own Latin, and separates the chameleon-poet letter and the 1819 soul-making letter from this one. The opening sentence reverses Keats's distinction.
+**FIX.** Still the opening sentence. Colvin matches Gutenberg. The new paragraphs on Bion and on Eliot are right, and they are careful: Bion keeps the tolerance for half-knowledge and drops the letter's claim about Beauty, and Eliot's impersonality is set beside the letter as a rival art rather than as the same one.
 
 Replace:
 
@@ -22,9 +22,21 @@ with:
 
 > not a dispute, but a disquisition.
 
+### 05 Schopenhauer — music
+
+**FIX.** The new paragraph on Wagner, Nietzsche, and Thomas Mann is the right story except at the joint. Wagner read Schopenhauer in 1854 and let the denial of the will press on the ending of the *Ring*. Nietzsche did not introduce them. He found Schopenhauer on his own in 1865 and met Wagner in 1868. *The Birth of Tragedy* (1872) and *Doctor Faustus* are fairly placed.
+
+Replace:
+
+> Nietzsche, who had been the go-between of that encounter and then the enemy of both men, publishes The Birth of Tragedy in 1872
+
+with:
+
+> Nietzsche was not the link between them. Wagner had lived with Schopenhauer since 1854; Nietzsche found Schopenhauer on his own in 1865 and met Wagner only in 1868, and he later became the enemy of both men. He publishes The Birth of Tragedy in 1872
+
 ### 07 Spengler — Faustian number
 
-**FIX.** Atkinson's text matches Gutenberg 72344, and the expansion is the right use of the page: morphology learned from Goethe, Apollinian number as a prime symbol rather than a stage on the way to the calculus, and a real parting from Heidegger (a soul's vocation, against a forgetting of Being). One date is easy to misread. The quotation's "c. 540" sits beside Pythagoras and means the sixth century BCE. The expansion says "Around 540" in a paragraph that then names Descartes.
+**FIX.** The new paragraphs are good. Cassirer refuses the organic soul, Heidegger moves calculation out of the culture-soul into the history of Being, and Gebser keeps the eye for form and drops the death sentence. Those three are accurately distinguished. The date in the first paragraph is still easy to misread next to Descartes.
 
 Replace:
 
@@ -34,29 +46,69 @@ with:
 
 > Around 540 BCE the Classical soul
 
+### 11 Eckhart — the nearness of the kingdom
+
+**FIX.** Baader reading Eckhart to Hegel, and Hegel recognizing a speculative mysticism near his own, is the real anecdote, and the expansion is right to call the result a loss of a practice. The new closing paragraph conflates two Heidegger texts that were published together. The 1955 memorial address turns releasement toward things in a technological world. It does not name Eckhart. The country-path conversation published with it is where the word's older mystical use is the subject.
+
+Replace:
+
+> Heidegger's Gelassenheit, in the 1955 address, names Eckhart and turns the letting-go toward things in a technological world.
+
+with:
+
+> Heidegger's 1955 memorial address turns the letting-go toward things in a technological world. Eckhart is named in the country-path conversation published with that address, where the word's older mystical use is the subject.
+
 ### 12 Eckhart — giving up God
 
-**FIX.** The extract is Field's, and the expansion earns its place. It treats "blood-relative" as Field's metaphor for the spark, names the *vünkelîn*, points to the poverty sermon ("free of God") as the sharper statement of the same paradox, and keeps the bull and the *Cloud* from collapsing into this paragraph. The sermon title is wrong. In Field's 1909 book this page is sermon IV, "True Hearing," on Ecclesiasticus 24:30. "The Angel's Greeting" is sermon III, and it ends before this extract. Field's own wording two paragraphs above the extract already has Paul say he would be "cut off from God for my friends' sake," so the expansion's account of the wish follows Field. It does not need a rewrite.
+**FIX.** The extract is still Field's sermon IV, "True Hearing," on Ecclesiasticus 24:30. "The Angel's Greeting" is sermon III and ends before this page. The lengthened expansion now repeats the wrong title in the prose. The rest of that paragraph is right: the poverty sermon is the sharper statement, and "blood-relative" is Field's metaphor for the *vünkelîn*. Merton's use of the spark as a meeting with Zen is fairly marked as a twentieth-century crossing Eckhart did not arrange.
 
-Correction, in `work` only:
+In `work`:
 
 > Sermons, 'True Hearing' (Ecclesiasticus 24:30), trans. Claud Field (1909)
 
-### 16 *Cloud of Unknowing*, chapter 6
+Replace:
 
-**FIX.** Underhill's chapter matches Wikisource, and the expansion is the operational center of the set: thought of God's goodness is honored and then, for this work, put under the cloud of forgetting; the dart of longing is the method; "gotten and holden" is kept as holding rather than concluding. The gloss of *listily* is wrong. In this book the noun *list* means desire. The adverb in "stalwartly, but listily" is the other word: deftly, skillfully. The "but" is the contrast. The longing is already named in "a devout and a pleasing stirring of love."
+> Field's Angel's Greeting is the same family in a milder cadence
+
+with:
+
+> Field's 'True Hearing,' the sermon this extract comes from, is the same family in a milder cadence
+
+### 15 *Cloud of Unknowing*, chapter 5
+
+**FIX.** The new paragraphs are otherwise exact. Dionysius's leave-taking, the inclusion of the good, and the warning against confusing this work with a general contempt for creatures are the chapter. Ignatius is the right complementary practice and the wrong century. The *Cloud* is late fourteenth century. "Find God in all things" is sixteenth century.
 
 Replace:
+
+> Ignatius of Loyola's counsel to find God in all things is the complementary practice in the same century's neighborhood, and it is a different practice.
+
+with:
+
+> Ignatius of Loyola's counsel to find God in all things, two centuries later, is the complementary practice, and it is a different practice.
+
+### 16 *Cloud of Unknowing*, chapter 6
+
+**FIX.** The new paragraph is right about the reprint and wrong about the word. Underhill's 1922 text reads "listily." Sacred-texts reads "Mistily." That reprint wording is real, and it is a corruption, not a second authorial sense. *Listily*, set against *stalwartly* by a "but," means deftly or skillfully. The longing is the "stirring of love" and the dart. The earlier paragraph in the same expansion still glosses the adverb as longing, so the two paragraphs now disagree with each other and both miss the contrast.
+
+Replace the earlier gloss:
 
 > 'Listily' is the author's adverb, from list, longing. The step above holy thoughts is made with desire, with strength.
 
 with:
 
-> 'Listily' is not the book's word for longing. The noun 'list' means desire, but this adverb, set against 'stalwartly' by a 'but,' means deftly or skillfully. The step above holy thoughts is strong and also tactful, and the longing is named in the next phrase, the devout stirring of love.
+> 'Listily,' set against 'stalwartly' by a 'but,' means deftly or skillfully. The step above holy thoughts is strong and also tactful. The longing is the devout stirring of love in the same sentence, and the sharp dart that follows.
+
+Replace the new textual paragraph's opening:
+
+> The adverb is a textual argument. Underhill's 1922 text, and the manuscripts she follows, read 'listily,' from list, longing. The step above holy thoughts is made with desire. A widespread reprint, sacred-texts among others, reads 'Mistily,' which turns a word for love's aim into a word for blurred sight. The quote follows the 1922 reading because the method of the chapter depends on it.
+
+with:
+
+> The adverb is a textual argument, and the meaning is the other half of it. Underhill's 1922 text reads 'listily.' Sacred-texts, a reprint in wide circulation, reads 'Mistily,' which turns the word into blurred sight. That is a corruption, and the quotation rightly follows Underhill. 'Listily' means deftly or skillfully, the contrast with 'stalwartly.' The longing is already named in the stirring of love and in the dart. The method of the chapter depends on the dart.
 
 ### 18 Plotinus — Nature's speech
 
-**FIX.** MacKenna's speech of Nature matches the Wikisource text of III.8, and the expansion's reading of production as a silent seeing is the tractate's thesis. Schelling and Goethe are offered as a family, with the Goethe link left unforced. One sentence puts the One at the top of a scale of seeing. In this same tractate a pure unity has no room for vision and an object. Intellect is the seeing in which knower and known are one life. The One is what that seeing is finally about.
+**FIX.** Two claims. The older paragraph still puts the One at the top of a scale of seeing. In this tractate a pure unity has no room for vision and an object. The new paragraph on Schelling dates Creuzer too early. Ficino's Latin is the Renaissance path. *Ideas for a Philosophy of Nature* is 1797 and the *System of Transcendental Idealism* is 1800. Creuzer's edition of Plotinus is 1835. Goethe, Steiner, and Barfield, later in the same paragraph, are in the right order.
 
 Replace:
 
@@ -66,38 +118,68 @@ with:
 
 > The scale of seeing runs upward in clarity: nature, soul, intellect, where knower and known are one life. It does not culminate in the One. A pure unity, Plotinus says in this same tractate, has no room for vision and an object. The One is what the seeing is about. Bodies are what fall from nature's gaze.
 
+Replace:
+
+> The Renaissance Neoplatonists and, in his own time, the new editions and discussions around Creuzer made Plotinus available as a philosophy of production rather than only as a piety. In the Ideas for a Philosophy of Nature and in the System of Transcendental Idealism, productivity and the ideal are one act seen from two sides.
+
+with:
+
+> Ficino's Latin Plotinus had already made the Enneads a philosophy of production rather than only a piety. Schelling's early books do not depend on Creuzer. The Ideas for a Philosophy of Nature is 1797 and the System of Transcendental Idealism is 1800; Creuzer's edition of Plotinus is 1835. In those two books, productivity and the ideal are one act seen from two sides.
+
+### 24 Bergson — duration
+
+**FIX.** Mitchell's chapter 1 matches Gutenberg, and the expansion is right that the next sentences give the brain the job of holding the past back so that action can go forward. *Time and Free Will* (1889), the *élan*, and the refusal of a drawer of states are accurate. William James cannot be among the readers of the 1911 English. He died in 1910. He had read the French of 1907, and *A Pluralistic Universe* (1909) is the sympathetic book.
+
+Replace:
+
+> Mitchell's 1911 English is the translation in which this reached American and British readers, William James among the sympathetic.
+
+with:
+
+> Mitchell's 1911 English is the translation in which the book reached many American and British readers. William James, who died in 1910, had been the sympathetic reader of the French Creative Evolution of 1907, not of this translation.
+
+### 25 Bergson — the cinematograph
+
+**FIX.** The passage is Mitchell's, and the expansion's use of it is right: Zeno to the idea to modern science, action needing stops, speculation that uses only stops missing the movement. Proust by marriage, and Deleuze turning the figure of illusion into an art that can think time, are fair and in the right order. One word in the quotation is a broken line-join.
+
+Replace:
+
+> per sonal attitudes
+
+with:
+
+> personal attitudes
+
+### 61 Vervaeke — the meaning crisis
+
+**FIX.** The paraphrase is a fair map of the public series: propositional, procedural, perspectival, and participatory knowing; relevance realization; the 2019 lectures. The ecology of practices and the zombie as a myth of motion without meaning are his. *Zombies in Western Culture* (2017) has a third author.
+
+Replace:
+
+> written with Christopher Mastropietro
+
+with:
+
+> written with Christopher Mastropietro and Filip Miscevic
+
 ## PASS
 
-**00 Goethe, the sunlike eye.** Eastlake matches Gutenberg. The couplet is Goethe's own distich, adapting Plotinus I.6, which is what the expansion says; Eastlake's "old mystic writer" is the pose of the preface. Empedocles through *De Anima*, the move into the *Farbenlehre*, and the dormant light as evidence rather than ornament are the right frame. Delicate empiricism is named as the later maxim this kinship leads to, which is fair.
+The lengthened paragraphs on the original 22 are, apart from the corrections above, the part of this update that most earns the space. They follow a real transmission and they say what mutates.
 
-**01 Goethe, irony.** The chain from seeing to combination, and the demand to theorize while knowing that one is theorizing, are the preface's method. Newton as the target, the cousinship with Schlegel's irony, and the theory-laden look are kept in proportion. The expansion says what the irony is for: so the phenomenon can still correct the grid.
+**00–03 Goethe.** Steiner's Kürschner edition in the 1880s, Barfield's original and final participation, and McGilchrist as a later description from another method are the right chain for the sunlike eye. Coleridge's primary and secondary imagination are distinguished from Goethe's laboratory irony. Heisenberg is fairly allowed to grant the methodological point and withhold the physics. The preface's blind man is used to refuse Schopenhauer's ranking of music as the one metaphysical sense, which is a real difference and not a forced harmony. Schiller's letters and the *Apprenticeship* are the same years; Carlyle's 1824 English and the question in *Past and Present* are fair; Weil, Crawford, and Berry are marked as answers to the sentence rather than as readings of the novel.
 
-**02 Goethe, color and hearing.** "Acts of light" and the turn to the ear are in the preface. Calling this a sensory restitution of *musica mundana* is marked as a reading, and it is a good one. The blind man who still meets an infinite vitality is used as an argument for more than one kind of attention, which is what the paragraph is doing.
+**06, 08–10, 13, 14, 17, 19–21.** Murdoch's unselfing is kept off Schopenhauer's denial of the will. Spengler's portrait, tragedy, and music are tied to a secular sublime, and Taylor's buffered self is described from the inside of a life rather than as another prophecy of death. Novalis's hymn is kept in its sequence, with the Christological turn reserved for the later hymns, and Rilke is not handed back to a church. The Hyacinth tale is dated against Schiller, and Corbin's 1964 essay is used as a title for a room Novalis already wrote, with the warning that a psychological reading loses the world Corbin insisted on. The *Cloud* chapters keep Gallus, Aquinas, and Underhill's 1912/1922 editions in the right relation. The shooter and the prick do follow the chapter 5 extract. Plotinus on symmetry, Aristotle's last book of the *Ethics* against Pieper and then Crawford, Koch and Stiglmayr in 1895, Dodds in 1933, and the refusal to flatten emanation into creation are accurate. Taylor's Proclus is no longer asked to be a page Blake certainly had open.
 
-**03 Goethe, burgher and nobleman.** Carlyle matches Gutenberg. The passage is Wilhelm's answer to Werner in Book V, as the expansion says. Schiller's *Aesthetic Education* (1795) and the *Apprenticeship* (1795–96) are the same years. The Tower Society does not endorse the theater as the cure, and the expansion lets Wilhelm be partly wrong. The class costume is acknowledged, and the question "what art thou?" is what survives it.
+**22–23 Steiner.** Hoernlé's English matches Gutenberg 55761, including the appendix *Truth and Science* in the Putnam edition whose editor's note is March 1921 and whose imprint is the enlarged edition. Moral imagination as the concrete idea, the refusal of a voice from beyond, and the later mutation into anthroposophical exercises and Barfield's final participation are the right three stages. Goethe's irony is named as the safeguard the appendix does not yet emphasize.
 
-**05 Schopenhauer, music.** Haldane and Kemp match Gutenberg, including their *exercitum* for Leibniz's *exercitium*. The expansion glosses the sense, an unconscious exercise in arithmetic, which is the right meaning of the formula. The isolation of music from the series of Ideas, Kant's lower rank for music as sensation, and the *Birth of Tragedy* taking the elevation and refusing the resignation are accurate. The expansion explains why the aesthetic effect is being used as a criterion.
+**26–27 Eliot, *The Sacred Wood*.** Both essays match Gutenberg 57795. Tradition as labor, the simultaneous order, and the new work altering that order are the 1919 essay, rightly placed before the 1927 conversion. The Blake essay's home-made furniture, put together from the odds and ends about the house, is in the essay even though it sits outside the extract, and the expansion uses it faithfully. Raine is the real reply, and she is not allowed to make Eliot's demand for a framework trivial.
 
-**06 Schopenhauer, the ethical sublime.** The extension from storm and abyss to character matches §39. Kant's mathematical and dynamical sublime, Burke's terror at a distance, and the path into Book IV are the right revisions, and Nietzsche's refusal is named as a refusal of this posture. The expansion brings the sublime into a room with one's enemies without losing the definition.
+**28–32 Barfield, Tolkien, Williams, Merton, Rowan Williams.** Original and final participation, idolatry as appearances taken for things, and the independent cousinship with Gebser are accurate, including the warning not to invent a line from Gebser to Barfield. Lewis's Great War and Tolkien's debt on language are fair. The Lang lecture of 1939, the 1947 volume for Williams, recovery, escape, consolation, and sub-creation are the lecture. Coinherence, the Companions, Beatrice against the *Cloud*, and Eliot at Faber are Williams. Merton's false self, *New Seeds* against the early flight from the world, and the Zen reading of Eckhart are kept distinct. *The Wound of Knowledge* (1979) is fairly read as apophasis bound to Christ and to a life, against a mysticism that has detached itself from both.
 
-**08 Spengler, destiny and causality.** Atkinson matches Gutenberg. Causality as the badge of waking life, destiny as what portrait, tragedy, and music can show, and the late man of the megalopolis are the book's method. "On his reading" of Kant is properly hedged. The expansion says what the intense hour is for: the apology for it is the late habit.
+**33–36 Weil, Murdoch, Bachelard.** Attention, affliction, decreation, the *Iliad* essay, and the split among heirs (Murdoch dropping the void, political readers sometimes dropping the severity) are Weil. Murdoch's three essays, the kestrel, Weil named as the source, and fantasy as the opposite of attention are *The Sovereignty of Good*. Bachelard's reversal, from the image as epistemological obstacle in *The Psychoanalysis of Fire* to reverie in the late poetics, and the house as a topography of intimacy, are the books. Corbin is allowed to answer that a phenomenology of reverie is still a description of a subject.
 
-**09 Novalis, *Hymns to the Night* II.** MacDonald's second hymn matches Gutenberg 8949, opening "Must the morning always return?" Sophie von Kühn's death in 1797 and the *Athenaeum* text of 1800 are right. The *Ungrund* is left "in the background." The later hymns' turn toward Christ is fairly reserved for what follows this one. The expansion treats unholy activity as a name for busyness that consumes the visit it is busy for, which is the hymn's point.
+**37–43 Neumann, von Franz, Giegerich, Moore, Bly, Corbin.** The heroic sequence is stated and then charged with the gendering later criticism has pressed. Von Franz is the corrective inside the same school, tale before theory. Giegerich's logical life, against a soul pictured as a gallery of figures, is his actual argument with Hillman, and the risk of a new contempt for the image is named. Moore is Ficino's care and Hillman's campaign, with the cost of popularity said plainly. *Iron John* is summarized as the Grimm sequence, and the weekend-rite movement is not defended past the tale. *Alam al-mithal*, the 1964 essay, *ta'wil* against allegory, and the chain Corbin–Hillman–Giegerich are accurate. The standard the Corbin paraphrase offers, that a commentary which replaces the image has become the allegory he refused, is the right use of him.
 
-**10 Novalis, Hyacinth and Rosebud.** The veil passage matches *Rampolli*, and MacDonald does name him Hyacinth and her Rosebud earlier in the same tale. Schiller's "Veiled Image at Sais," where the youth who lifts the veil is destroyed, is the right poem to set against this marriage. Corbin's *mundus imaginalis* and Jung's anima are marked as later vocabularies. The expansion's claim is the one the ending supports: what was sought at the end of the world was the nearest face.
+**44–53 Gebser, Girard, Jonas, Hart, Scruton, Berry, Dillard, Raine, Kingsley, Cassirer.** Structures and deficient modes, Spengler used and refused, diaphany as transparency rather than a return to myth. Mimetic desire, the romantic lie, the scapegoat, and Nietzsche as the philosopher who saw the mechanism and took the other side. Jonas's anti-cosmic syndrome against a careless reading of the spark, with specialists' revisions noted, and *The Imperative of Responsibility* as the reversal of his teacher. Hart's God as not a being among beings, and beauty as peaceful difference, with Gregory, Dionysius, and Maximus as the sources. Scruton's beauty as a summons, warmed out of Kant's disinterest and free of Schopenhauer's denial. Berry's membership against the industrial mind, with Weil, Ellul, and Kingsnorth in the right roles. Dillard's two ways of looking, and the refusal of a tidy consolation, as the mutation of Thoreau. Raine's learned Blake against Eliot's homemade philosophy. Kingsley's Parmenides, with the mainstream rejection left visible and the claim tied to Velia and Apollo Oulios rather than to a wish that the Presocratics be mystics. Cassirer's symbolic forms against Spengler's organism, the Davos meeting of 1929, and *The Myth of the State* as myth returning inside political technique.
 
-**11 Eckhart, the nearness of the kingdom.** Field's sermon II matches CCEL, and the expansion already says that the 1909 English is free and compressing. Time and place, the creature as nothing beside God, and the recovery of all things inside that knowing are the sermon's arc. *In agro dominico* (1329) is rightly limited to "sentences of this family." The contrast with Aquinas on analogy is fair, and *Gelassenheit* is a real debt Heidegger names.
-
-**13 *Cloud*, chapter 3.** Underhill matches Wikisource, and Sacred Texts `cou08` is this chapter. "Mean Himself, and none of His goods," the late fourteenth century, Thomas Gallus, and the affective reading of Dionysius are the right lineage. The expansion's best point is the one that is easy to miss: a private work is described as helping the living and the dead, so contemplation is being claimed as an invisible public act.
-
-**14 *Cloud*, chapter 4.** Sacred Texts `cou09` is this chapter. Knowledgeable power and loving power, and the claim that a loving soul comprehends the one who exceeds every vessel, are the chapter. The Aquinas contrast is careful: in this life love can reach where knowledge does not, and beatitude remains, for him, an intellectual vision. The expansion answers the worry that unknowing is a blank.
-
-**15 *Cloud*, chapter 5.** Sacred Texts `cou10` is this chapter. The cloud of forgetting, and the inclusion of good creatures and good thoughts, match Underhill. The shooter with his eye on the prick does follow immediately after this extract, in the same chapter. The expansion's use of it is right: what you behold, you stand under.
-
-**17 Plotinus, symmetry.** MacKenna's I.6 matches Wikisource. The demolition of beauty-as-proportion, the simples (light, gold, a single tone), and the face whose symmetry does not change, are the argument. Stoic proportion, Aquinas's *claritas*, and Goethe's sunlike eye are the right descendants. The expansion shows why a ratio goes silent in front of those cases.
-
-**19 Plotinus, action as a trace of vision.** MacKenna matches Wikisource. Aristotle's ranking of the contemplative life in the last book of the *Ethics* is right, and the expansion is harsher than Aristotle on purpose, then saves the complement clause: a deed can be justified when it gives the soul something nobler to look at than the work. Pieper is a kinship, not a citation. The expansion asks the question the passage leaves: whether the doing is ordered toward that nobler object.
-
-**20 Proclus, proposition IV.** Taylor's 1816 text matches Gutenberg 78800, proposition and proof. The expansion states the trap accurately: the united is both one and not one, and identifying it with the One would make the One an infinite multitude. Dodds (1933) as the better critical text, Dionysius's dependence on the distinction, and Eckhart's "one, and above this and that" are fair. Taylor's Plato in Blake's world, and Taylor's Proclus as the same labor, does not claim that Blake read this proposition.
-
-**21 Proclus, proposition V.** The extract is the reductio inside Taylor's proof of proposition V, and the expansion follows it: multitude cannot be prior, because a multitude that in no respect participates the One cannot be. The scholastic restatement is given with the difference Proclus would not accept, a creator in the biblical sense. The expansion uses the driest page as the floor under the others, which is the right use.
+**54–60 Rilke, *Four Quartets*, Florensky, Bulgakov, Kingsnorth, Taylor, Crawford.** The Ninth Elegy's saying of perishable things, the *Letters* of 1929 as letters written decades earlier, and Heidegger's 1946 "What Are Poets For?" marked as Heidegger's use of Rilke. The *Quartets* as the essay on tradition lived, after 1927, in a garden, on a coast, and at Ferrar's Little Gidding, with the timeless absolute and the mere historical process both refused. Florensky's antinomy, the Trinity against a simple One, the execution in 1937, and Bulgakov as the cosmological mutation. Sophia as *ousia* rather than a fourth hypostasis, the 1930s controversy, and the strain against Palamas. Kingsnorth's Machine as a way of seeing, *Against the Machine* (2025), Weil, Ellul, and Berry named as the tradition he claims, and the saw distinguished from the worldview. Taylor's porous and buffered selves, the immanent frame, and the rejection of the subtraction story, set beside Barfield and Gebser without making them disciples. Crawford's material that pushes back, Polanyi and Arendt, and attention as a resource being enclosed.
